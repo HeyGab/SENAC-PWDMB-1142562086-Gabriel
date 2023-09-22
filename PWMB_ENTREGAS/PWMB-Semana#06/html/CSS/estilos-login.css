@@ -1,0 +1,87 @@
+/* Estilos para a página de login */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #00306b 0%, #00306b 50%, white 50%, white 51%, red 51%, red 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*body {
+    background: linear-gradient(to bottom, #00306b 0%, #00306b 50%, white 50%, white 51%, red 51%, red 100%);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+
+.container {
+    background-color: #f0f0f0; /* Fundo cinza claro */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #333; /* Texto do cabeçalho em cinza escuro */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Texto do título em cinza escuro */
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555; /* Texto das etiquetas em cinza médio */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #0074D9; /* Azul */
+    color: #fff; /* Texto em branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
